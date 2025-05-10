@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "redshift-mcp-docker": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "DEFAULT_SCHEMA=flatiron_cmdb_nsclc_sdm_latest",
+        "redshift-mcp-py-simple",
+        "postgresql://username:password@redshift-url:5439/database?sslmode=require"
+      ],
+      "description": "Redshift MCP Server in Docker",
+      "env": {}
+    }
+  }
+}

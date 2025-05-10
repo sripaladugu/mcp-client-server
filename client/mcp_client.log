@@ -1,0 +1,12 @@
+2025-05-05 16:44:18,023 - MCPClient - INFO - Processing query: is the database connection successful?
+2025-05-05 16:44:18,026 - MCPClient - ERROR - Error processing query: MCP server is not running: MCPServerHTTP(url='http://localhost:8000/sse', headers=None, timeout=5, sse_read_timeout=300, log_level=None)
+2025-05-05 16:44:35,410 - MCPClient - INFO - Processing query: list tables?
+2025-05-05 16:44:35,412 - MCPClient - ERROR - Error processing query: MCP server is not running: MCPServerHTTP(url='http://localhost:8000/sse', headers=None, timeout=5, sse_read_timeout=300, log_level=None)
+2025-05-05 17:04:03,492 - MCPClient - INFO - Processing query: is the database connection working?
+2025-05-05 17:04:03,499 - MCPClient - ERROR - Error processing query: MCP server is not running: MCPServerHTTP(url='http://localhost:8000/sse', headers=None, timeout=5, sse_read_timeout=300, log_level=None)
+2025-05-05 18:23:16,421 - MCPClient - INFO - Processing query: list_tables
+2025-05-05 18:23:16,480 - MCPClient - ERROR - Error processing query: MCP server is not running: MCPServerHTTP(url='http://localhost:8000/sse', headers=None, timeout=5, sse_read_timeout=300, log_level=None)
+2025-05-05 20:19:28,276 - MCPClient - INFO - Processing query: list tables
+2025-05-05 20:19:28,279 - MCPClient - ERROR - Error processing query: MCP server is not running: MCPServerHTTP(url='http://localhost:8000/sse', headers=None, timeout=5, sse_read_timeout=300, log_level=None)
+2025-05-05 20:19:42,210 - MCPClient - INFO - Processing query: is the connection successful
+2025-05-05 20:19:42,212 - MCPClient - ERROR - Error processing query: MCP server is not running: MCPServerHTTP(url='http://localhost:8000/sse', headers=None, timeout=5, sse_read_timeout=300, log_level=None)

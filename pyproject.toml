@@ -1,0 +1,46 @@
+[project]
+name = "redshift-mcp-py"
+version = "1.0.0"
+description = "Redshift MCP Server in Python"
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "aiohttp>=3.11.18",
+    "fastmcp>=2.0.0",
+    "google-generativeai>=0.8.5",
+    "mcp>=1.7.1",
+    "psycopg2-binary>=2.9.9",
+    "pydantic>=2.0.0",
+    "pydantic-ai>=0.1.9",
+]
+
+[project.scripts]
+redshift-mcp-server = "redshift_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/redshift_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
